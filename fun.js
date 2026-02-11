@@ -28,21 +28,28 @@
 // }
 // new per();
 // 6
-const aa= ()=> { return { user: "name"}};
-console.log(aa());
-const bb= ()=> [1,2,3,4,5];
-console.log(bb());
+// const aa= ()=> { return { user: "name"}};
+// console.log(aa());
+// const bb= ()=> [1,2,3,4,5];
+// console.log(bb());
 
-const user = {
-    name : "ag", age :20,
-    welcome :  function(){
-        console.log(`hello ${this.name}`);
-        console.log(this)
+// const user = {
+//     name : "ag", age :20,
+//     welcome :  function(){
+//         console.log(`hello ${this.name}`);
+//         console.log(this)
 
-    }
-};
-const f=user.welcome();
-console.log(f);
+//     }
+// };
+// const f=user.welcome();
+// console.log(f);
 
 // user.name= "ayush";
 // user.welcome();
+const even = (a) => {
+    if (a % 2 === 0) {
+        console.log("even");
+    }
+};
+
+even(5);
